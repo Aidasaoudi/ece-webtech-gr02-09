@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "push": "git add . && git status && run-script-os && git push",
-    "push:win32": "set /p npm_package_config_comment=Comment: && git commit -m \"$npm_package_config_comment\"",
+    "push:win32": "set /p npm_package_config_comment=Comment: && git commit -m \"${env:npm_package_config_comment}\"",
     "push:default": "read -p \"Comment: \" comment && git commit -m \"$comment\""
   },
   "eslintConfig": {
