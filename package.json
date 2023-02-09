@@ -6,18 +6,22 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "cross-env": "^7.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "run-script-os": "^1.1.6",
     "web-vitals": "^2.1.4"
   },
+  "config": {
+    "comment": ""
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "push": "git add . && git status && run-script-os && git push",
-    "push:win32": "set /p comment=Comment: && git commit -m \"%comment%\"",
+    "push:win32": "set /p comment=Comment: && git commit -m \"$comment\"",
     "push:default": "read -p \"Comment: \" comment && git commit -m \"$comment\""
   },
   "eslintConfig": {
