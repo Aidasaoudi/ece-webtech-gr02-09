@@ -15,7 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+		"push": "git add . && git status && read -p \"Comment: \" comment && git commit -m \"$comment\" && git push",
+		"pushw": "git add . && git status && set /p comment=Comment: && git commit -m \"%comment%\" && git push"
   },
   "eslintConfig": {
     "extends": [
