@@ -14,82 +14,78 @@
 
 <li>Avoid having more than 400 lines per file</li>
 <li>
-<details open>
+<details>
 	<summary>Use <b><a href="https://en.wikipedia.org/wiki/Snake_case" target="_blank">snake case</a> for functions and variables</b>, and <b><a href="https://en.wikipedia.org/wiki/Camel_case" target="_blank">camel case</a> for classes</b> (applicable to <b><a href="https://reactjs.org/docs/hooks-intro.html" target="_blank">hooks</a>)</summary>
 	
 ```js
-	// Correct
-	function my_function() {
-	    // ...
-	    return true;
-	}
-	// DON'T
-	function MyFunction() {
-	    // ...
-	    return true;
-	}
+// Correct
+function my_function() {
+	// ...
+	return true;
+}
+// DON'T
+function MyFunction() {
+	// ...
+	return true;
+}
 
-	// Correct
-	function MyHook() {
-	    // ...
-	    return <img / > ;
-	}
-	// DON'T
-	function my_hook() {
-	    // ...
-	    return <img / > ;
-	}
+// Correct
+function MyHook() {
+	// ...
+	return <img/>;
+}
+// DON'T
+function my_hook() {
+	// ...
+	return <img/>;
+}
 ```
-</details>
+</details></li>
+<li><details>
+	<summary>You'd rather not use brackets for one-lined conditions or loops, nor for one-lined function (prefer arrow function in this case)</summary>
+
+```js
+// Correct
+if (test)
+	return true;
+
+// Correct
+if (test) return true;
+
+// DON'T
+if (test) {
+	return true;
+}
+
+// Correct
+const func = () => true;
+const MyHook = () => <img/>;
+
+// DON'T
+function my_function() {
+	// ...
+	return true;
+}
+```
+</details></li>
+
+<li><details>
+	<summary>You'd rather put the bracket on the same line</summary>
+
+```js
+// Correct
+function my_function() {
+	// ...
+	return true;
+}
+// DON'T
+function MyFunction() {
+	// ...
+	return true;
+}
+```
+</details></li>
+
+<li>You'd rather use [internal CSS than inline CSS](https://www.hostinger.com/tutorials/difference-between-inline-external-and-internal-css) for styling</li>
+
 </ol>
-
-
-
-5. You'd rather not use brackets for one-lined conditions or loops, nor for one-lined function (prefer arrow function in this case)
-??? question "Examples"
-
-	
-
-```js
-	// Correct
-	if (test)
-	    return true;
-
-	// Correct
-	if (test) return true;
-
-	// DON'T
-	if (test) {
-	    return true;
-	}
-
-	// Correct
-	const func = () => true;
-	const MyHook = () => < img / > ;
-
-	// DON'T
-	function my_function() {
-	    // ...
-	    return true;
-	}
-```
-
-6. You'd rather put the bracket on the same line when needed
-??? question "Examples"
-
-	
-
-```js
-	// Correct
-	function my_function() {
-	    // ...
-	    return true;
-	}
-	// DON'T
-	function MyFunction() {
-	    // ...
-	    return true;
-	}
-```
-
-7. You'd rather use [internal CSS than inline CSS](https://www.hostinger.com/tutorials/difference-between-inline-external-and-internal-css) for styling
