@@ -2,11 +2,12 @@
 
 1. Write everything in **english**
 2. Use **tabulations** to indent (not spaces).
-
-???+ tip "You can auto-indent your code using a formatter"
+```ad-note
+title: You can auto-indent your code using a formatter
 	- MacOS :	Shift + Alt + F
 	- Windows :	Shift + Alt + F
 	- Linux :	Ctrl + Shift + I
+```
 
 3. Avoid having more than 400 lines per file
 4. Use **[snake case](https://en.wikipedia.org/wiki/Snake_case) for functions and variables**, and **[camel case](https://en.wikipedia.org/wiki/Camel_case) for classes** (applicable to [hooks](https://reactjs.org/docs/hooks-intro.html))
