@@ -40,11 +40,12 @@ The documentation is divided into 3 main sections :
 <table>
 	<tr>
 		<td>Binary</td>
-		<td>Anomaly exploitation, Side-channel attack, Antivirus evasion</td>
+		<td rowspan="2">Anomaly exploitation, malwares, AV evasion</td>
+		<td>Side-channel attack</td>
 	</tr>
 	<tr>
 		<td>Scripting</td>
-		<td>Exploits, Antivirus evasion, polymorphic and self-modifying codes</td>
+		<td>Polymorphic and self-modifying codes</td>
 	</tr>
 	<tr>
 		<td>High-risk vulnerabilities</td>
