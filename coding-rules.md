@@ -15,7 +15,7 @@
 <li>Avoid having more than 400 lines per file</li>
 <li>
 <details>
-	<summary>Use <b><a href="https://en.wikipedia.org/wiki/Snake_case" target="_blank">snake case</a> for functions and variables</b>, and <b><a href="https://en.wikipedia.org/wiki/Camel_case" target="_blank">camel case</a> for classes</b> (applicable to <b><a href="https://reactjs.org/docs/hooks-intro.html" target="_blank">hooks</a>)</summary>
+	<summary>Use <b><a href="https://en.wikipedia.org/wiki/Snake_case" target="_blank">snake case</a> for functions and variables</b>, and <b><a href="https://en.wikipedia.org/wiki/Camel_case" target="_blank">camel case</a> for classes</b> (applicable to <a href="https://reactjs.org/docs/hooks-intro.html" target="_blank">hooks</a>)</summary>
 	
 ```js
 // Correct
