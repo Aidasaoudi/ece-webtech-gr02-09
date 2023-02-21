@@ -86,6 +86,6 @@ function MyFunction() {
 ```
 </details></li>
 
-<li>You'd rather use [internal CSS than inline CSS](https://www.hostinger.com/tutorials/difference-between-inline-external-and-internal-css) for styling</li>
+<li>You'd rather use <a href="https://www.hostinger.com/tutorials/difference-between-inline-external-and-internal-css" target="_blank">internal CSS than inline CSS</a> for styling</li>
 
 </ol>
