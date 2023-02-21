@@ -1,4 +1,3 @@
-# *In Darkness*
 ![Banner](banner.png)
 
 ## Overview
