@@ -13,8 +13,7 @@ The documentation is divided into 3 main sections :
 <li><b>Web</b> (which is also the Application layer of Network)</li>
 <li>
 <details>
-	<summary><b>Network</b></summary>
-Divided by the <a href="https://en.wikipedia.org/wiki/OSI_model">OSI model</a> :
+	<summary><b>Network</b> (Divided by the <a href="https://en.wikipedia.org/wiki/OSI_model">OSI model</a>)</summary>
 <table>
 	<tr>
 		<td>Application</td>
@@ -38,7 +37,6 @@ Divided by the <a href="https://en.wikipedia.org/wiki/OSI_model">OSI model</a> :
 <li>
 <details>
 	<summary><b>System</b></summary>
-Divided into 3 section :
 <table>
 	<tr>
 		<td>Binary</td>
