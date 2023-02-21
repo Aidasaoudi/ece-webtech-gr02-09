@@ -1,19 +1,23 @@
 # Coding rules
 
 <ol>
-<li> Write everything in <b>english</b></li>
-<li> Use <b>tabulations</b> to indent (not spaces).</li>
+<li>Write everything in <b>english</b></li>
+<li>Use <b>tabulations</b> to indent (not spaces).</li>
 <details open>
-<summary><u>You can auto-indent your code using a formatter<u></summary>
-<ul>
-<li>MacOS :	Shift + Alt + F</li>
-<li>Windows :	Shift + Alt + F</li>
-<li>Linux :	Ctrl + Shift + I</li>
-<ul>
+	<summary><u>You can auto-indent your code using a formatter<u></summary>
+	<ul>
+		<li>MacOS :	Shift + Alt + F</li>
+		<li>Windows :	Shift + Alt + F</li>
+		<li>Linux :	Ctrl + Shift + I</li>
+	<ul>
 </details>
 
-<li> Avoid having more than 400 lines per file</li>
-<li> Use **[snake case](https://en.wikipedia.org/wiki/Snake_case) for functions and variables**, and **[camel case](https://en.wikipedia.org/wiki/Camel_case) for classes** (applicable to [hooks](https://reactjs.org/docs/hooks-intro.html))</li>
+<li>Avoid having more than 400 lines per file</li>
+<li>
+<details open>
+	<summary>Use <b><a href="https://en.wikipedia.org/wiki/Snake_case">snake case</a> for functions and variables</b>, and **[camel case](https://en.wikipedia.org/wiki/Camel_case) for classes** (applicable to [hooks](https://reactjs.org/docs/hooks-intro.html))<u></summary>
+	
+</details>
 </ol>
 ??? question "Examples"
 
