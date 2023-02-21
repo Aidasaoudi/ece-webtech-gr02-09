@@ -15,14 +15,8 @@
 <li>Avoid having more than 400 lines per file</li>
 <li>
 <details open>
-	<summary>Use <b><a href="https://en.wikipedia.org/wiki/Snake_case">snake case</a> for functions and variables</b>, and **[camel case](https://en.wikipedia.org/wiki/Camel_case) for classes** (applicable to [hooks](https://reactjs.org/docs/hooks-intro.html))<u></summary>
+	<summary>Use <b><a href="https://en.wikipedia.org/wiki/Snake_case" target="_blank">snake case</a> for functions and variables</b>, and <b><a href="https://en.wikipedia.org/wiki/Camel_case" target="_blank">camel case</a> for classes</b> (applicable to <b><a href="https://reactjs.org/docs/hooks-intro.html" target="_blank">hooks</a>)</summary>
 	
-</details>
-</ol>
-??? question "Examples"
-
-	
-
 ```js
 	// Correct
 	function my_function() {
@@ -46,6 +40,10 @@
 	    return <img / > ;
 	}
 ```
+</details>
+</ol>
+
+
 
 5. You'd rather not use brackets for one-lined conditions or loops, nor for one-lined function (prefer arrow function in this case)
 ??? question "Examples"
