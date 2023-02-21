@@ -87,7 +87,8 @@ function my_function() {
 	return true;
 }
 // DON'T
-function MyFunction() {
+function my_function()
+{
 	// ...
 	return true;
 }
