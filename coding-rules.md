@@ -4,12 +4,21 @@
 <li>Write everything in <b>english</b></li>
 <li>Use <b>tabulations</b> to indent (not spaces).</li>
 <details open>
-	<summary><u>You can auto-indent your code using a formatter</u></summary>
-	<ul>
-		<li>MacOS :	Shift + Alt + F</li>
-		<li>Windows :	Shift + Alt + F</li>
-		<li>Linux :	Ctrl + Shift + I</li>
-	<ul>
+	<summary>You can auto-indent your code using a formatter</summary>
+	<table>
+		<tr>
+			<td>MacOS</td>
+			<td>Shift + Alt + F</td>
+		</tr>
+		<tr>
+			<td>Windows</td>
+			<td>Shift + Alt + F</td>
+		</tr>
+		<tr>
+			<td>Linux</td>
+			<td>Ctrl + Shift + I</td>
+		</tr>
+	</table>
 </details>
 
 <li>Avoid having more than 400 lines per file</li>
