@@ -38,8 +38,6 @@ Divided by the <a href="https://en.wikipedia.org/wiki/OSI_model">OSI model</a> :
 <li>
 <details>
 	<summary><b>System</b></summary>
-
-**Intended to advanced programmers**
 Divided into 3 section :
 <table>
 	<tr>
