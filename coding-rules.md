@@ -4,9 +4,7 @@
 <li> Write everything in <b>english</b></li>
 <li> Use <b>tabulations</b> to indent (not spaces).</li>
 <details open>
-</summary>
-<u>You can auto-indent your code using a formatter<u>
-</summary>
+<summary><u>You can auto-indent your code using a formatter<u></summary>
 <ul>
 <li>MacOS :	Shift + Alt + F</li>
 <li>Windows :	Shift + Alt + F</li>
