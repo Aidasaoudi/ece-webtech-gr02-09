@@ -1,12 +1,16 @@
-import name from './in-darkness.png';
+import blackcat from "./assets/images/black-cat.png";
 import './App.css';
-import './assets/fonts/CinzelDecorative.ttf';
 
 function App() {
 	return (
 		<div className="App">
 			<header className="App-header">
+				<div id="blackbg"></div>
+				<div id="whitebg"></div>
+				<div id="makered"></div>
+
 				<h1>In Darkness</h1>
+				<img src={blackcat} />
 			</header>
 		</div>
 	);
