@@ -4,7 +4,7 @@
 <li>Write everything in <b>english</b></li>
 <li>Use <b>tabulations</b> to indent (not spaces).</li>
 <details open>
-	<summary><u>You can auto-indent your code using a formatter<u></summary>
+	<summary><u>You can auto-indent your code using a formatter</u></summary>
 	<ul>
 		<li>MacOS :	Shift + Alt + F</li>
 		<li>Windows :	Shift + Alt + F</li>
@@ -42,7 +42,7 @@ function my_hook() {
 ```
 </details></li>
 <li><details>
-	<summary>You'd rather not use brackets for one-lined conditions or loops, nor for one-lined function (prefer arrow function in this case)</summary>
+	<summary>You'd rather <b>not use brackets for one-lined</b> conditions, loops or functions (prefer arrow function in this case)</summary>
 
 ```js
 // Correct
@@ -63,14 +63,13 @@ const MyHook = () => <img/>;
 
 // DON'T
 function my_function() {
-	// ...
 	return true;
 }
 ```
 </details></li>
 
 <li><details>
-	<summary>You'd rather put the bracket on the same line</summary>
+	<summary>You'd rather <b>put the bracket on the same line</b></summary>
 
 ```js
 // Correct
@@ -86,6 +85,6 @@ function MyFunction() {
 ```
 </details></li>
 
-<li>You'd rather use <a href="https://www.hostinger.com/tutorials/difference-between-inline-external-and-internal-css" target="_blank">internal CSS than inline CSS</a> for styling</li>
+<li>You'd rather <b>use <a href="https://www.hostinger.com/tutorials/difference-between-inline-external-and-internal-css" target="_blank">internal CSS than inline CSS</a></b></li>
 
 </ol>
