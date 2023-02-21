@@ -2,14 +2,16 @@
 
 <ol>
 <li> Write everything in <b>english</b></li>
-<li> Use **tabulations** to indent (not spaces).</li>
+<li> Use <b>tabulations</b> to indent (not spaces).</li>
 <details open>
 </summary>
-! You can auto-indent your code using a formatter
+<u>You can auto-indent your code using a formatter<u>
 </summary>
-  + MacOS :	Shift + Alt + F
-  + Windows :	Shift + Alt + F
-  + Linux :	Ctrl + Shift + I
+<ul>
+<li>MacOS :	Shift + Alt + F</li>
+<li>Windows :	Shift + Alt + F</li>
+<li>Linux :	Ctrl + Shift + I</li>
+<ul>
 </details>
 
 <li> Avoid having more than 400 lines per file</li>
