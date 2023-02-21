@@ -30,7 +30,7 @@ Divided by the <a href="https://en.wikipedia.org/wiki/OSI_model">OSI model</a> :
 	</tr>
 	<tr>
 		<td>Data link</td>
-		<td>ARP spoofing, DNS cache poisoning, network attacks etc.</td>
+		<td>ARP spoofing, DNS cache poisoning, wireless networks attacks etc.</td>
 	</tr>
 </table>
 </details>
