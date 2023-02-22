@@ -1,5 +1,3 @@
-import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route, Outlet, Link } from "react-router-dom";
 import { BsGithub } from "react-icons/bs";
 
 import blackcat from "@image/black-cat.png";

@@ -10,7 +10,8 @@ form {
 	padding: 40px;
 	border-radius:10px;
 }
-a {
+
+#arrow-right {
 	position: absolute;
 	top:400;
 	right:calc(50vw - 260px);
@@ -22,22 +23,4 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-@keyframes slidezin {
-	from {
-		transform: translateZ(-400px) rotateY(-90deg);
-	}
-	to {
-		transform: translateZ(0) rotateY(0deg);
-	}
-}
-
-@keyframes slidezout {
-	from {
-		transform: translateX(0) rotateY(0deg) scale(1, 1);
-	}
-	to {
-		transform: translateX(-400px) rotateY(-90deg) scale(1, 0);
-	}
 }

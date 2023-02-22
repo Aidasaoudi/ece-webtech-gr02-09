@@ -30,7 +30,7 @@ export default function SignIn() {
 					placeholder="Password"
 				/>
 				<input type="submit" onClick={submit} value="Sign in"/>
-				<a href="#"><IoMdArrowDropright /></a>
+				<a id="arrow-right" href="#"><IoMdArrowDropright /></a>
 			</form>
 		</>
 	);
