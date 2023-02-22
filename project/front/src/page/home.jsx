@@ -1,17 +1,20 @@
-import blackcat from "@image/black-cat.png";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route, Outlet, Link } from "react-router-dom";
 import { BsGithub } from "react-icons/bs";
+
+import blackcat from "@image/black-cat.png";
 import "@style/App.css";
 
-const App = () => (
+
+const Home = () => (
 	<div className="App">
 		<header className="App-header">
 			<h1>In Darkness</h1>
 			<div id="sign">
-				<a id="sign-in" href="#">
+				<a id="sign-in" href="/sign-in">
 					Sign in
 				</a>
-				
-				<a id="sign-up" href="#">
+				<a id="sign-up" href="/sign-up">
 					Sign up
 				</a>
 				<div id="sign-up-background">_</div>
@@ -72,4 +75,4 @@ const App = () => (
 	</div>
 );
 
-export default App;
+export default Home;

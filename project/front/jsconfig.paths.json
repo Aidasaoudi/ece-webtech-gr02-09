@@ -1,5 +1,4 @@
 {
-	"extends": "./jsconfig.paths.json",
 	"compilerOptions": {
 		"baseUrl": ".",
 		"paths": {
@@ -9,8 +8,8 @@
 			"@*": [
 				"./src/*"
 			],
-			"@screen": [
-				"./src/screen"
+			"@page": [
+				"./src/page"
 			],
 			"@asset": [
 				"./src/asset"

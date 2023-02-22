@@ -1,0 +1,21 @@
+{
+	"domain": "api.harmony.re",
+	"ssl": {
+		"private_key": "",
+		"certificate": ""
+	},
+	"token_duration": 32,
+	"session_duration": 45,
+	"time": {
+		"day": 86400000,
+		"minute": 3600000
+	},
+	"code": {
+		"charset": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+		"length": 32
+	},
+	"other_allowed_resources": [
+		"favicon.ico",
+		"logo-tnbg.png"
+	]
+}

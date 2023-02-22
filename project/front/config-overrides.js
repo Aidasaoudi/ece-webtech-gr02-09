@@ -12,7 +12,8 @@ module.exports = function override(config) {
 	alias({
 		'@asset': 'src/asset',
 		'@style': 'src/asset/style',
-		'@image': 'src/asset/image'
+		'@image': 'src/asset/image',
+		'@page': 'src/page'
 	})(config);
 	return config;
 };

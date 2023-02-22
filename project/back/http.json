@@ -1,0 +1,18 @@
+{
+	"200": { "success": "OK" },
+	"201": { "success": "Created" },
+	"202": { "success": "Accepted" },
+	"204": { "success": "No Content" },
+	"205": { "success": "Reset Content" },
+
+	"400": { "error": "Bad Request" },
+	"401": { "error": "Unauthorized" },
+	"403": { "error": "Forbidden" },
+	"404": { "error": "Not Found" },
+	"406": { "error": "Not Acceptable" },
+	"425": { "error": "Too early" },
+
+	"500": { "error": "Internal Server Error" },
+	"501": { "error": "Not Implemented" },
+	"503": { "error": "Service Unavailable" }
+}

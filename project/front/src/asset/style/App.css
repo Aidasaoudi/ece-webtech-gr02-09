@@ -143,3 +143,27 @@ h2 {
 	mask-repeat: no-repeat;
 	mask-position: left top, left bottom;
 }
+
+input {
+	transition: 400ms;
+	width:400px;
+	border:1px solid #ddd;
+	background-color: #222;
+	padding:10px;
+	margin:30px;
+	border-radius:5px;
+	color:#eee;
+	font-size: 16px;
+	height:20px
+}
+
+input[type=password] {
+	font-size: 10px;
+}
+
+input:focus {
+	border:1px solid #eee;
+	background-color: #ccc;
+	color:#111;
+	outline: none;
+}
