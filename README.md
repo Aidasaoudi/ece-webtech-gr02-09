@@ -49,7 +49,7 @@ The documentation is divided into 3 main sections :
 	</tr>
 	<tr>
 		<td>High-risk vulnerabilities</td>
-		<td>RCE, LPE, SBX, VME and FCP</td>
+		<td colspan="2">RCE, LPE, SBX, VME and FCP</td>
 	</tr>
 </table>
 </details>
