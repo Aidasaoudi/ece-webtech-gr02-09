@@ -1,0 +1,43 @@
+form {
+	margin: auto;
+	height: 500px;
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #171717;
+	padding: 40px;
+	border-radius:10px;
+}
+a {
+	position: absolute;
+	top:400;
+	right:calc(50vw - 260px);
+	border-radius: 20px;
+	width:40px;
+	height:40px;
+	border: 1px solid #ddd;
+	background-color:#333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@keyframes slidezin {
+	from {
+		transform: translateZ(-400px) rotateY(-90deg);
+	}
+	to {
+		transform: translateZ(0) rotateY(0deg);
+	}
+}
+
+@keyframes slidezout {
+	from {
+		transform: translateX(0) rotateY(0deg) scale(1, 1);
+	}
+	to {
+		transform: translateX(-400px) rotateY(-90deg) scale(1, 0);
+	}
+}

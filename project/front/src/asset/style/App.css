@@ -146,7 +146,7 @@ h2 {
 
 input {
 	transition: 400ms;
-	width:400px;
+	width:100%;
 	border:1px solid #ddd;
 	background-color: #222;
 	padding:10px;
@@ -154,11 +154,6 @@ input {
 	border-radius:5px;
 	color:#eee;
 	font-size: 16px;
-	height:20px
-}
-
-input[type=password] {
-	font-size: 10px;
 }
 
 input:focus {
@@ -166,4 +161,27 @@ input:focus {
 	background-color: #ccc;
 	color:#111;
 	outline: none;
+}
+
+input[type=submit] {
+	padding:20px;
+	width:calc(100% + 20px);
+	height:55px;
+	background-color: #ddd;
+	color:#111;
+	text-transform: uppercase;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+input::placeholder {
+	color:#ccc;
+}
+
+input:focus::placeholder {
+	color:#222;
+}
+
+a {
+	text-decoration: none;
 }
