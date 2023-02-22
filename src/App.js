@@ -1,4 +1,4 @@
-import blackcat from "./assets/images/black-cat.png";
+import { BsGithub } from "react-icons/bs";
 import "./App.css";
 
 function App() {
@@ -17,8 +17,56 @@ function App() {
 				</div>
 			</header>
 			<div className="center">
-				<p>The objective of the <i>In Darkness</i> project is to make accessible this often misunderstood world of hacking.</p>
+				<p>
+					The objective of the <i>In Darkness</i> project is to make accessible
+					this often misunderstood world of hacking.
+				</p>
 				<p>This project is for educational purpose only.</p>
+				<a href="https://github.com/Aidasaoudi/ece-webtech-gr02-09">
+					<BsGithub size="32" />
+				</a>
+			</div>
+			<div className="center">
+				<h2>Network</h2>
+				<table>
+					<tr>
+						<td>Application</td>
+						<td>
+							Web vulnerabilities, Denial of Service attacks, Google Hacking
+							etc.
+						</td>
+					</tr>
+					<tr>
+						<td>Session</td>
+						<td>SSL/TLS attacks</td>
+					</tr>
+					<tr>
+						<td>Transport</td>
+						<td>UDP DDoS reflection</td>
+					</tr>
+					<tr>
+						<td>Data link</td>
+						<td>
+							ARP spoofing, DNS cache poisoning, wireless networks attacks etc.
+						</td>
+					</tr>
+				</table>
+				<h2>System</h2>
+				<table>
+					<tr>
+						<td>Binary</td>
+						<td rowspan="2">Anomaly exploitation, malwares, AV evasion</td>
+						<td>Side-channel attack</td>
+					</tr>
+					<tr>
+						<td>Scripting</td>
+						<td>Polymorphic and self-modifying codes</td>
+					</tr>
+					<tr>
+						<td>High-risk vulnerabilities</td>
+						<td colspan="2">RCE, LPE, SBX, VME and FCP</td>
+					</tr>
+				</table>
 			</div>
 		</div>
 	);

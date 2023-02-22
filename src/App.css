@@ -103,7 +103,8 @@ h1 {
 
 .center {
 	margin: auto;
-	height: 400px;
+	height: 50vh;
+	width:40vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -112,4 +113,14 @@ h1 {
 
 p {
 	text-align: center;
+}
+
+td {
+	min-width: 160px;
+	border-bottom:1px solid #999;
+	padding:15px 20px;
+}
+
+h2 {
+	padding-top: 60px;
 }
