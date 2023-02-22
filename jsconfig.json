@@ -1,0 +1,29 @@
+{
+	"extends": "./jsconfig.paths.json",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@": [
+				"./src"
+			],
+			"@*": [
+				"./src/*"
+			],
+			"@screen": [
+				"./src/screen"
+			],
+			"@asset": [
+				"./src/asset"
+			],
+			"@font": [
+				"./src/asset/font"
+			],
+			"@image": [
+				"./src/asset/image"
+			],
+			"@style": [
+				"./src/asset/style"
+			]
+		}
+	}
+}

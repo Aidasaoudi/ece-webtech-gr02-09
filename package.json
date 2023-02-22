@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
     "push": "git add . && git status && run-script-os && git push",
     "push:win32": "set /p comment=Comment: && git commit -m \"%comment%\"",
     "push:default": "read -p \"Comment: \" comment && git commit -m \"$comment\""
@@ -16,11 +16,15 @@
     "@testing-library/user-event": "^13.5.0",
     "cross-env": "^7.0.3",
     "react": "^18.2.0",
+    "react-app-alias": "^2.2.2",
+    "react-app-rewire-alias": "^1.1.7",
+    "react-app-rewired": "^2.2.1",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-scripts": "5.0.1",
     "run-script-os": "^1.1.6",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.75.0"
   },
   "eslintConfig": {
     "extends": [

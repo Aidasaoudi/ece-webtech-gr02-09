@@ -1,6 +1,6 @@
-import blackcat from "./assets/images/black-cat.png";
+import blackcat from "@image/black-cat.png";
 import { BsGithub } from "react-icons/bs";
-import "./App.css";
+import "@style/App.css";
 
 const App = () => (
 	<div className="App">
@@ -15,7 +15,6 @@ const App = () => (
 					Sign up
 				</a>
 				<div id="sign-up-background">_</div>
-				
 			</div>
 		</header>
 		{/*<img src={blackcat} className="opacity-gradient" />*/}
