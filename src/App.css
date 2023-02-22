@@ -51,7 +51,7 @@ h1 {
 	text-align: center;
 	border-radius: 10px;
 	padding: 10px;
-	width: 120px;
+	width: 160px;
 	height: fit-content;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -69,12 +69,12 @@ h1 {
 
 #sign-up-background {
 	background-color: #ddd;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 	color: transparent;
 	z-index: 1;
 	position: absolute;
 	padding: 10px;
-	width: 120px;
+	width: 160px;
 }
 
 #sign-up + #sign-up-background {
@@ -91,13 +91,13 @@ h1 {
 		transform: translateX(0);
 	}
 	to {
-		transform: translateX(260px);
+		transform: translateX(220px);
 	}
 }
 
 @keyframes slideout {
 	from {
-		transform: translateX(260px);
+		transform: translateX(220px);
 	}
 	to {
 		transform: translateX(0);
