@@ -30,6 +30,7 @@ function App() {
 				<h2>Network</h2>
 				<table>
 					<tr>
+						<td>7</td>
 						<td>Application</td>
 						<td>
 							Web vulnerabilities, Denial of Service attacks, Google Hacking
@@ -37,14 +38,17 @@ function App() {
 						</td>
 					</tr>
 					<tr>
+						<td>5</td>
 						<td>Session</td>
 						<td>SSL/TLS attacks</td>
 					</tr>
 					<tr>
+						<td>4</td>
 						<td>Transport</td>
 						<td>UDP DDoS reflection</td>
 					</tr>
 					<tr>
+						<td>2</td>
 						<td>Data link</td>
 						<td>
 							ARP spoofing, DNS cache poisoning, wireless networks attacks etc.
