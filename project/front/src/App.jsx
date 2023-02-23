@@ -4,7 +4,7 @@ import { BsGithub } from "react-icons/bs";
 
 import blackcat from "@image/black-cat.png";
 import Home from "@page/home";
-import SignIn from "@page/sign-in";
+import Login from "@page/login/index";
 import "@style/App.css";
 
 
@@ -13,9 +13,7 @@ const App = () => (
 		<Routes>
 			<Route path="/">
 				<Route index element={<Home />} />
-				<Route path="sign-in" element={<SignIn />} />
-				<Route path="sign-up" element={<Home />} />
-				<Route path="*" element={<Home />} />
+				<Route path="/login" element={<Login />} />
 			</Route>
 		</Routes>
 	</BrowserRouter>

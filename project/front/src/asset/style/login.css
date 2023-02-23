@@ -1,7 +1,9 @@
 form {
 	margin: auto;
-	height: 500px;
-	width: 400px;
+	height: 60vh;
+	max-height: 600px;
+	width: 25vw;
+	max-width: 400px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -12,15 +14,14 @@ form {
 }
 
 #arrow-right {
-	position: absolute;
-	top:400;
-	right:calc(50vw - 260px);
 	border-radius: 20px;
-	width:40px;
-	height:40px;
+	width:120px;
+	padding:10px;
 	border: 1px solid #ddd;
 	background-color:#333;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	text-transform: uppercase;
+}
+
+#arrow-right > * {
+	padding-left:20px
 }

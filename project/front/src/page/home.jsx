@@ -3,16 +3,15 @@ import { BsGithub } from "react-icons/bs";
 import blackcat from "@image/black-cat.png";
 import "@style/App.css";
 
-
 const Home = () => (
 	<div className="App">
 		<header className="App-header">
 			<h1>In Darkness</h1>
 			<div id="sign">
-				<a id="sign-in" href="/sign-in">
+				<a id="sign-in" href="/login">
 					Sign in
 				</a>
-				<a id="sign-up" href="/sign-up">
+				<a id="sign-up" href="/login#SignIn">
 					Sign up
 				</a>
 				<div id="sign-up-background">_</div>
@@ -35,7 +34,9 @@ const Home = () => (
 				<tr>
 					<td>7</td>
 					<td>Application</td>
-					<td>Web vulnerabilities, Denial of Service attacks, Google Hacking etc.</td>
+					<td>
+						Web vulnerabilities, Denial of Service attacks, Google Hacking etc.
+					</td>
 				</tr>
 				<tr>
 					<td>5</td>
@@ -50,7 +51,9 @@ const Home = () => (
 				<tr>
 					<td>2</td>
 					<td>Data link</td>
-					<td>ARP spoofing, DNS cache poisoning, wireless networks attacks etc.</td>
+					<td>
+						ARP spoofing, DNS cache poisoning, wireless networks attacks etc.
+					</td>
 				</tr>
 			</table>
 			<h2>System</h2>
