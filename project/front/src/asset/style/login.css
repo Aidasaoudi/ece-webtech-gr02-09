@@ -20,8 +20,12 @@ form {
 	border: 1px solid #ddd;
 	background-color:#333;
 	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #arrow-right > * {
-	padding-left:20px
+	padding-left:10px;
+	font-size:20px
 }

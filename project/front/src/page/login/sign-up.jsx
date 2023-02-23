@@ -3,7 +3,7 @@ import { IoMdArrowDropright } from "react-icons/io";
 import "@style/App.css";
 import "@style/login.css";
 
-export default function SignUp({ setRoute }) {
+export default function SignUp() {
 	const [email, setEmail] = useState("");
 	const [password, setPassword] = useState("");
 
@@ -28,7 +28,7 @@ export default function SignUp({ setRoute }) {
 				placeholder="Password"
 			/>
 			<input type="submit" onClick={submit} value="Sign in" />
-			<button id="arrow-right" onClick={() => setRoute("#/sign-in")}><IoMdArrowDropright /></button>
+			<a href="#/sign-in" id="arrow-right">Sign in <IoMdArrowDropright /></a>
 		</form>
 	);
 }

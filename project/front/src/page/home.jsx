@@ -11,7 +11,7 @@ const Home = () => (
 				<a id="sign-in" href="/login">
 					Sign in
 				</a>
-				<a id="sign-up" href="/login#SignIn">
+				<a id="sign-up" href="/login#/sign-up">
 					Sign up
 				</a>
 				<div id="sign-up-background">_</div>

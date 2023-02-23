@@ -8,27 +8,28 @@ import "@style/App.css";
 import "@style/login.css";
 
 export default function Login() {
-	const [route, setRoute] = useState(useLocation().hash);
+	const [route, setRoute] = useState(null);
 
 	useEffect(() => {
-		window.location.replace(route);
-	}, [route]);
-
-	const router = () => {
-		switch (route) {
-			case "#/sign-up":
-				return <SignUp setRoute={setRoute} />;
-			default:
-				return <SignIn setRoute={setRoute} />;
-		}
-	};
+		const _onhashchange = () => {
+			switch (window.location.hash) {
+				case "#/sign-up":
+					setRoute(<SignUp />);
+					break;
+				default:
+					setRoute(<SignIn />);
+			}
+		};
+		window.onhashchange = _onhashchange;
+		_onhashchange();
+	}, []);
 
 	return (
 		<>
 			<h1 className="center" style={{ height: 150 }}>
 				In Darkness
 			</h1>
-			{router()}
+			{route}
 		</>
 	);
 }
