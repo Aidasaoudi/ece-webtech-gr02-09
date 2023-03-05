@@ -3,11 +3,11 @@
 import http from "http";
 import express from "express";
 
-import { auth_admin, auth_token_validate } from "./auth.js";
+import { auth_token_validate } from "./auth.js";
 import { sign_in } from "./sign-in.js";
-import * as SignUp from "./sign-up.js";
-import * as Me from "./me/index.js";
-import { init_db } from "./db/index.js";
+//import * as SignUp from "./sign-up.js";
+//import * as Me from "./me/index.js";
+import { init_db } from "./db.js";
 import { __dirname, app as app_data, default_reply } from "./config.js";
 
 
@@ -81,26 +81,26 @@ const sitemap = {
 		"POST": sign_in
 	},
 	"/sign-up": {
-		"POST": SignUp.request,
+		"POST": null,//SignUp.request,
 		"/resend": {
-			"GET": SignUp.resend_code
+			"GET": null,//SignUp.resend_code
 		},
 		"/confirm": {
-			"GET": SignUp.confirm
+			"GET": null,//SignUp.confirm
 		}
 	},
 	"/check/:key/:value": {
-		"GET": SignUp.available
+		"GET": null,//SignUp.available
 	},
 	"/change-email": {
-		"GET": Me.change_email_confirm
+		"GET": null,//Me.change_email_confirm
 	},
 	"/forgot-password": {
 		"/send": {
-			"POST": Me.forgot_password
+			"POST": null,//Me.forgot_password
 		},
 		"/change": {
-			"POST": Me.forgot_password_change
+			"POST": null,//Me.forgot_password_change
 		}
 	},
 	"/sitemap.xml": {
@@ -118,15 +118,13 @@ recursive_sitemap(sitemap);
 // Logged
 app.use(auth_token_validate);
 
-app.use("/admin", auth_admin);
-
 const sitemap_logged = {
 	"/me": {
 		"/profile": {
-			"GET": Me.me,
-			"PUT": Me.profile_update,
+			"GET": null,//Me.me,
+			"PUT": null,//Me.profile_update,
 			"/raw": {
-				"GET": Me.me_raw
+				"GET": null,//Me.me_raw
 			}
 		}
 	}
@@ -139,4 +137,4 @@ app.use((_, response) => response.reply(404));
 
 const server = http.createServer(app);
 
-server.listen(8080, () => console.log("Server listening on port 8080"));
+server.listen(8080, () => console.log("API listening on port 8080"));

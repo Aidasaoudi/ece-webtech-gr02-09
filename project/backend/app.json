@@ -15,7 +15,6 @@
 		"length": 32
 	},
 	"other_allowed_resources": [
-		"favicon.ico",
-		"logo-tnbg.png"
+		
 	]
 }

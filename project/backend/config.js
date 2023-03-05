@@ -7,4 +7,4 @@ import default_reply from "./http.json" assert { type: "json"};
 
 export const __dirname = dirname(fileURLToPath(import.meta.url));
 
-export { app, countries, credentials, default_reply };
+export { app, credentials, default_reply };

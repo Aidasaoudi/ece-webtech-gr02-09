@@ -1,12 +1,11 @@
 {
-  "name": "ece-webtech-gr02-09",
+  "name": "in-darkness",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
-    "push": "git add . && git status && read -p \"Comment: \" comment && git commit -m \"$comment\" && git push"
+    "test": "react-app-rewired test"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
