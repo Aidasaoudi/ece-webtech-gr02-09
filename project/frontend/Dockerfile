@@ -1,6 +1,6 @@
 FROM node:18
 
-WORKDIR /usr/src/app
+WORKDIR /usr/src/app/frontend
 
 COPY package.json ./package.json
 COPY package-lock.json ./package-lock.json

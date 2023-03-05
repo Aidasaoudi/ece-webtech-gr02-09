@@ -6,7 +6,7 @@ The objective of the *In Darkness* project is to make accessible this often misu
 
 This project is for educational purpose only.
 
-### Sections
+## Sections
 
 The documentation is divided into 3 main sections :
 <ol>
